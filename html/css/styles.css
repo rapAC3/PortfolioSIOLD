@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.beaudy {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffffffff;
+    background-image: url('file:///C:/Users/Lohan/Desktop/Portfolio_Lohan_DUCROS%20(2)/Portfolio_Lohan_DUCROS/html/image/gif 7.gif');
+            background-size: cover; 
+            background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.menu {
+    width: 20%;
+    background-color: #000000ff;
+    color: #ffffffff;
+    float: right;
+    height: 100vh;
+    margin-right: 0px;
+    box-sizing: border-box;
+    padding-top: 70px;
+}
+
+.menu ul {
+    list-style: none;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    
+    
+}
+
+.menu li {
+    text-align: center;
+    
+}
+
+.menu ul li {
+    padding: 10px 0;
+
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #ffffffff ;
+    display: block;
+    padding: 5px 10px;
+    font-size: 24px;
+    transition: background-color 0.3s;
+    padding-top: 50px;
+}
+
+.menu ul li a:hover {
+    background-color: #333;
+    border-radius: 5px;
+    
+}
+
+
+
+.image-text {
+    display: block;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.content {
+    margin: 0 auto; 
+    text-align: center;  
+}
+
+.logo {
+    position: fixed;
+    top: 10px; 
+    right: 160px; 
+}
+
+.logo img {
+    width: 70px; 
+}
+
+@keyframes zoomIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    
+}
+
+.welcome-text {
+    font-size: 210px;
+    animation: zoomIn 2.5s ease-out;
+    color: white;
+    position: fixed;
+    top: 40%;
+    left: 15%;
+    transform: translate(0%, 0%);
+}
+
+
+
+
+
